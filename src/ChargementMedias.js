@@ -36,10 +36,10 @@ CasseBrique.ChargementMedias.prototype = {
 			
 			//Chargement des images pour les écrans d'intro et de fin du jeu
 			this.load.spritesheet("pleinEcranBtn", "bouton-pleinEcran.png", 50, 50);
-            this.load.image("introImg", "introJeu.jpg", 960, 640);
-            this.load.spritesheet("jouerBtn", "bouton-jouer.png", 360, 80);
-            this.load.spritesheet("rejouerBtn", "bouton-rejouer.png", 465, 80);
-            this.load.image("fenetreInstructions", "FenetreInstructions.jpg", 800, 560)
+            this.load.image("introImg", "introJeu.png", 960, 640);
+            this.load.spritesheet("jouerBtn", "bouton-jouer.png", 88, 80);
+            this.load.spritesheet("rejouerBtn", "bouton-jouer.png", 88, 80);
+            this.load.image("fenetreInstructions", "FenetreInstructions.png", 800, 560)
             this.load.image("finImg", "finJeu.jpg", 960, 640);
 		
             //Chargement des feuilles de sprites pour les éléments du jeu

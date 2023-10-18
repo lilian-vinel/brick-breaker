@@ -70,7 +70,7 @@ CasseBrique.Jeu.prototype = {
         this.scoreTxt.anchor.set(0.5, 1);
 
         //Initialiser et afficher le temps
-        this.tempsTxt = this.add.text(20, 10, 'Temps: 0', { font: "15px Arial", fill: "#ffffff", align: "left" });
+        this.tempsTxt = this.add.text(20, 10, 'Time: 0', { font: "15px Arial", fill: "#ffffff", align: "left" });
 
         //Initialiser et afficher le nombre de balles restantes
         this.ballesRestantesTxt = this.add.text(this.game.width - 75,this.game.height, 'Balls left : 3', { font: "15px Arial", fill: "#ffffff", align: "left" });

@@ -23,7 +23,7 @@ CasseBrique.IntroJeu.prototype = {
         this.sonMenu.play();
 
         //Bouton
-        var boutonJouer= this.add.button(this.game.width/2, this.game.height*0.80, "jouerBtn",this.afficherInstructions, this,1,0,2,0);
+        var boutonJouer= this.add.button(this.game.width/2, this.game.height*0.85, "jouerBtn",this.afficherInstructions, this,1,0,2,0);
         boutonJouer.anchor.set(0.5);
     },
 
